@@ -135,7 +135,7 @@ button{
 /* #region main */
 .wave{
     width: 100%;
-    filter: opacity(0.04);
+    color: #F6F6F6;
     margin: -4px auto;
 }
 
@@ -143,6 +143,9 @@ button{
     transform: rotate(180deg);
 }
 
+section{
+    padding: 3rem 0;
+}
 /* #endregion main */
 
 /* #region footer */
