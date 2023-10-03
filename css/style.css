@@ -135,8 +135,14 @@ button{
 /* #region main */
 .wave{
     width: 100%;
-    background: grey;
+    filter: opacity(0.04);
+    margin: -4px auto;
 }
+
+.rot-180{
+    transform: rotate(180deg);
+}
+
 /* #endregion main */
 
 /* #region footer */
