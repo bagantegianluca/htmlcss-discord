@@ -15,6 +15,15 @@ h2{
     font-size: 3rem;
     margin: 2rem auto;
 }
+
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
 /* #endregion commmon */
 
 /* #region utility */
@@ -69,6 +78,10 @@ h2{
     background: black;
 }
 
+.bg-lblue{
+    background: #8EA1E1;
+}
+
 button{
     border: none;
 }
@@ -113,11 +126,6 @@ button{
 #header a{
     color: white;
 }
-
-.banner-top p{
-    padding: 1rem;
-    line-height: 1.5rem;
-}
 /* #endregion header */
 
 /* #region main */
@@ -131,6 +139,11 @@ button{
 
 #footer a{
     margin-right: 10px;
+}
+
+#footer .lang img{
+    width: 20px;
+    height: 100%;
 }
 /* #endregion footer */
 
