@@ -82,6 +82,10 @@ p{
     background: #8EA1E1;
 }
 
+.bg-lgrey{
+    background: #F6F6F6;
+}
+
 button{
     border: none;
 }
@@ -129,7 +133,10 @@ button{
 /* #endregion header */
 
 /* #region main */
-
+.wave{
+    width: 100%;
+    background: grey;
+}
 /* #endregion main */
 
 /* #region footer */
@@ -144,6 +151,14 @@ button{
 #footer .lang img{
     width: 20px;
     height: 100%;
+}
+
+#footer h4{
+    color: #8EA1E1;
+}
+
+#footer a{
+    color: white;
 }
 /* #endregion footer */
 
