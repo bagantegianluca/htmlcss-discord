@@ -13,7 +13,7 @@ ul{
 
 h2{
     font-size: 3rem;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
 }
 
 h3{
@@ -21,7 +21,7 @@ h3{
 }
 
 p{
-    padding: 1rem;
+    padding: 1rem 0;
     line-height: 1.5rem;
 }
 /* #endregion commmon */
@@ -127,6 +127,10 @@ button{
     height: 525px;
 }
 
+.banner-top .container{
+    width: 50%;
+}
+
 #header a{
     color: white;
 }
@@ -146,15 +150,38 @@ button{
 section{
     padding: 3rem 0;
 }
+
+section p{
+    text-align: left;
+}
+
+.banner-bottom h4{
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    padding: 20px;
+}
 /* #endregion main */
 
 /* #region footer */
 #footer{
     background: #23272A;
+    padding: 3rem 0;
 }
 
-#footer a{
+.footer-top{
+    padding: 2rem 0;
+}
+
+.footer-top a{
     margin-right: 10px;
+}
+
+.footer-top a img{
+    width: 40%;
+}
+
+.lang{
+    padding: 2rem 0;
 }
 
 #footer .lang img{
@@ -162,12 +189,25 @@ section{
     height: 100%;
 }
 
-#footer h4{
+#footer h4, #footer h5{
+    font-size: 1rem;
     color: #8EA1E1;
+    line-height: 2rem;
+}
+
+#footer h4{
+    font-size: 2rem;
 }
 
 #footer a{
     color: white;
+    line-height: 2rem;
+}
+
+.footer-bottom{
+    border-top: 1px solid #4A5882;
+    padding: 2rem 0;
+    
 }
 /* #endregion footer */
 
