@@ -1,0 +1,189 @@
+/* #region commmon */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 2rem auto;
+}
+/* #endregion commmon */
+
+/* #region utility */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-btw{
+    justify-content: space-between;
+}
+
+.flex-align-start{
+    align-items: flex-start;
+}
+
+.col-02{
+    width: calc((100% / 12) * 2);
+}
+
+.col-04{
+    width: calc((100% / 12) * 4);
+}
+
+.col-05{
+    width: calc((100% / 12) * 5);
+}
+
+.col-07{
+    width: calc((100% / 12) * 7);
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.bg-white{
+    background: white;
+}
+
+.bg-black{
+    background: black;
+}
+
+button{
+    border: none;
+}
+
+.color-white{
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn-small{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn-large{
+    font-size: 16px;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+}
+/* #endregion utility */
+
+/* #region header */
+#header{
+    background: #255EE9;
+    padding: 1rem 0;
+}
+
+#header a{
+    padding: 10px;
+}
+
+.banner-top{
+    color: white;
+    background-image:url('../img/jumbo.png');
+    background-size: cover;
+    height: 525px;
+}
+
+#header a{
+    color: white;
+}
+
+.banner-top p{
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+#footer{
+    background: #23272A;
+}
+
+#footer a{
+    margin-right: 10px;
+}
+/* #endregion footer */
+
+/* #region debug */
+.debug #header{
+    height: 80px;
+}
+
+.debug #header .container{
+    background: yellow;
+}
+
+.debug .banner-top{
+    height: 550px;
+    background: blue;
+}
+
+.debug .banner-top .container{
+    background: yellow;
+}
+
+.debug section{
+    height: 800px;
+    background: grey;
+    border: 1px solid red;
+}
+
+.debug section img{
+    background: lightblue;
+}
+
+.debug section .text{
+    background: pink;
+}
+
+.debug section .container{
+    background-color: aqua;
+}
+
+.debug #footer .footer-top{
+    height: 500px;
+}
+
+.debug div .col-04{
+    background: pink;
+}
+
+.debug div .col-02{
+    background: lightgreen;
+    border: 1px solid white;
+}
+
+.debug #footer .footer-bottom{
+    height: 170px;
+}
+/* #endregion debug */
