@@ -7,6 +7,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --bg-header: #255EE9;
+    --bg-sections: #F6F6F6;
+    --bg-footer: #23272A;
+    --txt-footer: #8EA1E1;
+    --border-footer: #4A5882;
+    --white: white;
+    --black: black;
+}
+
 ul{
     list-style-type: none;
 }
@@ -71,19 +81,19 @@ p{
 }
 
 .bg-white{
-    background: white;
+    background: var(--white);
 }
 
 .bg-black{
-    background: black;
+    background: var(--black);
 }
 
 .bg-lblue{
-    background: #8EA1E1;
+    background: var(--txt-footer);
 }
 
 .bg-lgrey{
-    background: #F6F6F6;
+    background: var(--bg-sections);
 }
 
 button{
@@ -91,7 +101,7 @@ button{
 }
 
 .color-white{
-    color: white;
+    color: var(--white);
 }
 
 .text-center{
@@ -112,7 +122,7 @@ button{
 
 /* #region header */
 #header{
-    background: #255EE9;
+    background: var(--bg-header);
     padding: 1rem 0;
 }
 
@@ -121,7 +131,7 @@ button{
 }
 
 .banner-top{
-    color: white;
+    color: var(--white);
     background-image:url('../img/jumbo.png');
     background-size: cover;
     height: 525px;
@@ -132,14 +142,14 @@ button{
 }
 
 #header a{
-    color: white;
+    color: var(--white);
 }
 /* #endregion header */
 
 /* #region main */
 .wave{
     width: 100%;
-    color: #F6F6F6;
+    color: var(--bg-sections);
     margin: -4px auto;
 }
 
@@ -164,7 +174,7 @@ section p{
 
 /* #region footer */
 #footer{
-    background: #23272A;
+    background: var(--bg-footer);
     padding: 3rem 0;
 }
 
@@ -191,7 +201,7 @@ section p{
 
 #footer h4, #footer h5{
     font-size: 1rem;
-    color: #8EA1E1;
+    color: var(--txt-footer);
     line-height: 2rem;
 }
 
@@ -200,12 +210,12 @@ section p{
 }
 
 #footer a{
-    color: white;
+    color: var(--white);
     line-height: 2rem;
 }
 
 .footer-bottom{
-    border-top: 1px solid #4A5882;
+    border-top: 1px solid var(--border-footer);
     padding: 2rem 0;
     
 }
