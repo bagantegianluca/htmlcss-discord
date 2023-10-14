@@ -34,6 +34,14 @@ p{
     padding: 1rem 0;
     line-height: 1.5rem;
 }
+
+button{
+    transition: all linear 1s;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 .5rem black);
+}
 /* #endregion commmon */
 
 /* #region utility */
@@ -50,6 +58,10 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 
 .space-btw{
@@ -126,8 +138,24 @@ button{
     padding: 1rem 0;
 }
 
+#header ul{
+    gap: 1rem;
+}
+
 #header a{
-    padding: 10px;
+    color: var(--white);
+}
+
+.border{
+    width: 0%;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--white);
+    transition: all linear .25s;
+}
+
+#header a:hover .border{
+    width: 100%;
 }
 
 .banner-top{
@@ -141,9 +169,19 @@ button{
     width: 50%;
 }
 
-#header a{
-    color: var(--white);
+.logo{
+    animation: fade-in linear 2s;
 }
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 /* #endregion header */
 
 /* #region main */
@@ -163,6 +201,15 @@ section{
 
 section p{
     text-align: left;
+}
+
+section img{
+    filter: blur(2px);
+    transition: all linear 1s;
+}
+
+section img:hover{
+    filter: blur(0px);
 }
 
 .banner-bottom h4{
